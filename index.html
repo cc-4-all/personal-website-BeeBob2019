@@ -1,8 +1,10 @@
 <html>
+
 <head>
     <title>Láithreán gréasáin Zoe</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <nav>
         <h1>ZC</h1>
@@ -13,34 +15,51 @@
         </ul>
     </nav>
     <main>
-
+        <div id="top"></div>
         <h1>Dia dhuit! Is mise Zoe</h1>
         <hr />
 
-        <div class="profile item">
+        <div class="profile-item" id="faoi">
             <h1>Faoi mé</h1>
             <img width="250" src="images/violin.jpg">
             <h4>
-                Haigh is mise Zoe, tá mé 13 bliana d'aois agus imríom peil gaelach agus seinm an violin
+                Haigh is mise Zoe, tá mé 13 bliana d'aois. Díreach críochnaigh mé an chéad bhliain i Coláiste Chilliain.
+                Tá deartháir amhán níos óige agam darbh ainm Rossa. Imríom peil gaelach agus seinm an violin. Táim ag
+                seinm an violin ó a bhí mé 7 mbliana d'aois. Táim ag imirt peil gaelach ó a bhí mé naoi ach bhí orm é a
+                stopadh le haghaidh bliain mar bhí sé ag dul ar aighaidh i rith taekwondo a chuir mé stop leis nuair a
+                thosaigh Covid-19.
             </h4>
         </div>
-            
-        <div class="profile item">
-            <h1>Mo leasanna</h1>
-            <img width="250" src="images/springer spaniel.webp">
-            
-            <h2>madraí</h2>
-            <h4>Is breá liom madraí.</h4>
+        <div class="mainContent">
+            <div id="leasanna" class="profile-item">
+                <h1>Mo leasanna</h1>
+                <img width="250" src="images/springer spaniel.webp">
+
+                <h2>Madraí</h2>
+                <h4>Is breá liom madraí.</h4>
+            </div>
+
+            <div class="profile-item">
+                <h1>Mo leasanna</h1>
+                <img width="250" src="images/gaelic football.jpg">
+                <h2>Peil gaelach</h2>
+                <h4>Is breá liom peil gaelach</h4>
+            </div>
         </div>
-            
-        <div class="profile item">
-            <h1>Mo leasanna</h1>
-            <img width="250" src="images/gaelic football.jpg">
-            
-            <h4>Is breá liom peil gaelach</h4>
+        <img class="wrap">
+        <div id="gallery">
+        <button id="prev">◀</button>
+        <img src="images/gaelic football.jpg" id="gallery-img" />
+        <button id="next">▶</button>
         </div>
-        </main>
-        <footer>
-            <a href="#top">Arais go barr</a>
-        </footer>
-   </body>
+        </div> 
+    </main>
+    <footer>
+        <a href="#top">
+            <h2>Arais go barr</h2>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

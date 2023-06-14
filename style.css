@@ -22,10 +22,11 @@ width: 25%;
 justify-content: space-between;
 }
 
-main, footer{
+main, footer {
     text-align: center;
     width: 1200px;
     margin: auto;
+    background-color: skyblue;
 }
 
 h4 {
@@ -38,3 +39,27 @@ h4 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+#faoi {
+    background-color: skyblue;
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+ }
+
+ .wrap {
+    float: left;
+    margin: 10px;
+ }
+
+ .mainContent h4{
+
+    font-size: 32px;
+ }
